@@ -53,22 +53,4 @@ function extractHtml(html) {
         }
         console.log("---------------------------------")
     }
-
-    //MY WAY
-
-    // let Tname = selectorTool(teamName[i]).text();
-    // Tname = Tname.split("INNINGS")[0];
-    // Tname = Tname.trim();
-    // console.log(Tname);
-    // let playerNames = selectorTool(".Collapsible__contentInner .batsman-cell.text-truncate.out");
-    // // console.log(playerNames.length);
-
-    // for(let j = 0; j < playerNames.length; j++)
-    // {
-    //     let name = selectorTool(playerNames[j]).text();
-    //     console.log(name + "\t->\t" + Tname);
-    // }
-    // console.log("----------------------------")
-
-
 }
